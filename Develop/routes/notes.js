@@ -9,14 +9,14 @@ note.get('/', (req, res) =>
 // POST Route for submitting note
 note.post('/', (req, res) => {
   // Destructuring assignment for the items in req.body
-  const { noteTitle, noteText } = req.body;
+  const { title, text } = req.body;
 
   // If all the required properties are present
-  if (noteTitle && noteText) {
+  if (title && text) {
     // Variable for the object we will save
     const newNote = {
-      noteTitle,
-      noteText,
+      title,
+      text,
     };
 
     readAndAppend(newNote, './db/db.json');
