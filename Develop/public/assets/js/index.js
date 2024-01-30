@@ -89,8 +89,8 @@ const handleNoteDelete = (e) => {
   e.stopPropagation();
 
   const note = e.target;
-  const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
-
+  const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).note_id;
+console.log(noteId);
   if (activeNote.id === noteId) {
     activeNote = {};
   }
@@ -117,6 +117,7 @@ const handleNewNoteView = (e) => {
 
 // Renders the appropriate buttons based on the state of the form
 const handleRenderBtns = () => {
+  //show(newNoteBtn); check???
   show(clearBtn);
   if (!noteTitle.value.trim() && !noteText.value.trim()) {
     hide(clearBtn);
