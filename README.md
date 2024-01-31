@@ -19,6 +19,8 @@ This application will let you write and save notes So That you can orgnize your 
 - [License Link](#license-link)
 - [License Section](#license-section)
 - [License Badge](#license-badge)
+- [Link to the Site](#site-link)
+- [APP Screenshot](#app-screenshot)
 
 ## Installation Instructions <a id="installation-instructions"></a>
 
@@ -58,3 +60,11 @@ https://opensource.org/licenses/MIT
 
 <a id="license-section"></a>
 Please refere to github The MIT License license or to click the link above
+
+## Link to the Site <a id="site-link"></a>
+
+https://jupitor-notetaker-59fd2ee54bc1.herokuapp.com/
+
+## APP Screenshot <a id="app-screenshot"></a>
+
+![Alt Site Screenshot](../jupitor-notetaker/public/assets/img/siteScreenshot.png)
