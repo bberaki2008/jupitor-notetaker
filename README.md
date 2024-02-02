@@ -61,10 +61,10 @@ https://opensource.org/licenses/MIT
 <a id="license-section"></a>
 Please refere to github The MIT License license or to click the link above
 
-## Link to the Site <a id="site-link"></a>
+## Link to the Deployed APP <a id="site-link"></a>
 
 https://jupitor-notetaker-59fd2ee54bc1.herokuapp.com/
 
 ## APP Screenshot <a id="app-screenshot"></a>
 
-![Alt Site Screenshot](../jupitor-notetaker/public/assets/img/siteScreenshot.png)
+![Alt Site Screenshot](./public/assets/img/siteScreenshot.png)
